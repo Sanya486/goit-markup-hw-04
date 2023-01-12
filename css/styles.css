@@ -367,6 +367,18 @@ body {
     margin-left: 24px;
 }
 
+.our-qualities-icon-container{
+    width: 264px;
+    height: 112px;
+    background-color: var(--logo-footer-color);
+}
+
+
+.icon {
+    width: 64px;
+    height: 64px;
+    
+}
 /* What are we doing */
 
 .works{
