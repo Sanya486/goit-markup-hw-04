@@ -506,11 +506,11 @@ body {
 
 /* Customers */
 
-.clients{
+.customers{
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.clients .title{
+.customers .title{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
