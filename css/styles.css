@@ -11,7 +11,7 @@
     --logo-footer-color: #F4F4FD;
     --simple-white:#fff;
     --footer-social-logo-color:rgba(255, 255, 255, 0.1);
-
+    --accent-color:#31D0AA;
 }
 
 
@@ -487,6 +487,9 @@ body {
     background-color: var(--logo-style-color);
 }
 
+.social-list-item:hover{
+    background-color:var(--button-color);
+}
 .icon-social{
 } 
 
@@ -534,6 +537,10 @@ body {
     height: 40px;
     border-radius: 50%;
     background-color:var(--footer-social-logo-color)
+}
+
+.footer-social-list-item:hover{
+    background-color: var(--accent-color);
 }
 
 /* Utilities */
