@@ -10,6 +10,7 @@
     --button-color: #404BBF;
     --logo-footer-color: #F4F4FD;
     --simple-white:#fff;
+    --footer-social-logo-color:rgba(255, 255, 255, 0.1);
 
 }
 
@@ -174,6 +175,15 @@ body {
 .address-item:focus {
     color: var(--logo-style-color);
 }
+
+.address-list .item .email::before{
+    content:'\2709';
+}
+
+.address-list .item .tel::before{
+    content:'\1F57E';
+}
+
 /* main */
 
 /* filter */
@@ -470,8 +480,6 @@ body {
 }
 
 .icon-social{
-
-    
 } 
 
 
@@ -488,9 +496,37 @@ body {
 .footer-text {
     margin-top: 16px;
 }
+.footer-subtitle{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.footer-container{
+    display: flex;
+    align-content: flex-start;
+    gap: 120px;
+}
+
+.footer-social-list{
+    display: flex;
+    gap: 16px;
+}
 
 
 
+.footer-social-list-item{
+    display: flex;
+    
+    padding: 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:var(--footer-social-logo-color)
+}
 
 /* Utilities */
 
