@@ -313,6 +313,17 @@ body {
     background: var(--headline-color);
     padding-top: 188px;
     padding-bottom: 188px;
+    
+}
+
+.overlay{
+    background-image:
+    linear-gradient(to right, rgba(46,47,66,0.7) 50%, rgba(46,47,66,0.7) 50% ), url(../images/people-office.jpg);
+    background-repeat:no-repeat ;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1440px;
 }
 .headline-section-title {
     margin-bottom: 48px;
