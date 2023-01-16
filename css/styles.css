@@ -179,10 +179,12 @@ body {
 
 .address-list .item .email::before{
     content:'\2709';
+    margin-right: 10px;
 }
 
 .address-list .item .tel::before{
-    content:'\1F57E';
+    content:'\260E';
+    margin-right: 10px;
 }
 
 /* main */
@@ -530,10 +532,14 @@ body {
 .customers-list .item{
     width: calc((100%-5*24)/6);
     height: 88px;
+}
+
+.customers-link{
     border: 1px solid #8E8F99;
     border-radius: 4px;
     border-color: var(--customers-border-color);
 }
+
 
 .customers-link{
     width: 100%;
@@ -541,6 +547,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--customers-border-color);
+}
+
+.customers-list .icon{
+    fill:currentColor;
+}
+
+.customers-list .customers-link:is(:hover,:focus) {
+    border-color:var(--button-color);
+    color: var(--button-color);
 }
 /* footer */
 
